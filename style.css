@@ -1,6 +1,7 @@
 .slide-container{
   width:275px;
   height: 183px;
+  display:flex;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
