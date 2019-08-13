@@ -3,16 +3,16 @@ body{
 }
 .gallery{
   display: flex;
-  width: 900px;
+  width: 1200px;
   margin: auto;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 figure{
-  width: 200px;
-  margin: 8px 0;
+  width: 300px;
+  margin: 0;
   border: 1px solid #777;
-  padding: 8px;
+  border-radius:10px;
   box-sizing: border-box;
   background-color: #fff;
 }
@@ -24,3 +24,7 @@ figure figcaption{
   padding: 8px 4px;
 }
 .mySlides {display:none;}
+ i {
+    display: block;
+    margin: 0 30px;
+  }
