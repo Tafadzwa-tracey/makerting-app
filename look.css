@@ -3,28 +3,35 @@ body{
 }
 .gallery{
   display: flex;
-  width: 1200px;
+  max-width:98%;
   margin: auto;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.img{
+  max-width:98%;
+  margin:auto;
+}
+
 figure{
-  width: 300px;
-  margin: 0;
+  max-width: 24%;
+  margin: 0.5%;
   border: 1px solid #777;
   border-radius:10px;
   box-sizing: border-box;
   background-color: #fff;
 }
 figure img{
-  width: 100%;
+width: 100%;
 }
 figure figcaption{
   text-align: center;
   padding: 8px 4px;
 }
-.mySlides {display:none;}
+.mySlides {
+  display:none;
+}
  i {
-    display: block;
-    margin: 0 30px;
+    display:inline;
+    margin: 5%;
   }
